@@ -36,9 +36,3 @@ attr_accessor :name, :artist, :genre
   end
 
   end
-
-# my_song = song.new
-# my_song.instance_method
-
-# Song.count
-# # => 90
