@@ -37,8 +37,8 @@ attr_accessor :name, :artist, :genre
       else
       genre_hash[g] = 1 
     end
-    return genre_hash
   end
+  return genre_hash
 end
 
   def self.artists
