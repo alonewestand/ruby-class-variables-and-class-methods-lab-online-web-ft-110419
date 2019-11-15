@@ -1,4 +1,3 @@
-
 class Song
 
   def self.count
