@@ -34,7 +34,9 @@ attr_accessor :name, :artist, :genre
 
 
   def self.genre_count
-     if @@genres.include?("rap") then 
+      for @@genres.include?(each) do then 
+      {"rap"}
+      
        
   end
 
