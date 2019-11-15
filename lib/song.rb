@@ -13,7 +13,7 @@ attr_accessor :name, :artist, :genre
 	@genre = genre
   @@count +=1	
   @@genres << genre 
-  @@genre_count[:genre => :genre.to_s.each.count]
+  @@genre_count[:genre => "{#genre}".each.count]
   @@artists << artist 
  	end  
 
