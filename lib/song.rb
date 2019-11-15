@@ -33,10 +33,11 @@ attr_accessor :name, :artist, :genre
     genre_hash = {}
   @@genres.each do |g|
     if genre_hash[g]
-        genre_hash[g] += 1
+       genre_hash[g] += 1
       else
       genre_hash[g] = 1 
     end
+    return genre_hash
   end
 
   def self.artists
