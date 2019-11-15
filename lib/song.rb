@@ -31,7 +31,6 @@ attr_accessor :name, :artist, :genre
 
     def self.genre_count
    (@@genres).group_by { |g| g.count}
-      end
   end
 
   def self.artists
