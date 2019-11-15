@@ -22,7 +22,7 @@ attr_accessor :name, :artist, :genre
   end
 
   def self.genre_count
-      self.genres
+      @@genres.each.count 
   end
 
   def self.artists
