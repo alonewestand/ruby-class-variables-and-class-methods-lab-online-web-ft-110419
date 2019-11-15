@@ -8,10 +8,14 @@ def initialize (name, artist, genre)
   @name = name 	
   @artist = artist
 	@genre = genre
- @@count +=1	
+  @@count +=1	
   @@genres << genre 
- @@artists << artist 
+  @@artists << artist 
  	end  
+ 	
+ def instance_method 
+   self
+ end
 
 def self.count 
   self
@@ -25,3 +29,8 @@ def self.artists
 end
 
 end
+
+my_song = song.new
+my_song.instance_method
+
+Song.count
