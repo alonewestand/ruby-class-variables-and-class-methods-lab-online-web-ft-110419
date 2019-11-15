@@ -1,10 +1,10 @@
-class Song
+  class Song
 attr_accessor :name, :artist, :genre	
 @@count = 0  
 @@genres = [] 
 @@artists = []	
 
-def initialize (name, artist, genre)
+  def initialize (name, artist, genre)
   @name = name 	
   @artist = artist
 	@genre = genre
@@ -13,23 +13,23 @@ def initialize (name, artist, genre)
   @@artists << artist 
  	end  
 
-def self.count 
+  def self.count 
   @@count
-end          
+  end          
 
-def self.genres
+  def self.genres
 	@@genres.uniq 	
-end
+  end
 
-def self.genre_count
+  def self.genre_count
     @@genres
-end
+  end
 
-def self.artists
+  def self.artists
 	@@artists.uniq 
-end
+  end
 
-end
+  end
 
 # my_song = song.new
 # my_song.instance_method
