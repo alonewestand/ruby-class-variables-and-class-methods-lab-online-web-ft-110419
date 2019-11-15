@@ -33,7 +33,7 @@ attr_accessor :name, :artist, :genre
 
 
   def self.genre_count
-    genre_baby = @@genres.slice
+    genre_baby = @@genres.slice()
     end
   end
 
