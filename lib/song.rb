@@ -34,8 +34,7 @@ attr_accessor :name, :artist, :genre
 
 
   def self.genre_count
-      for @@genres.include?(each) do then 
-      {"rap"}
+    @@genres.each.do |genre
       
        
   end
