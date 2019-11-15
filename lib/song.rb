@@ -35,6 +35,7 @@ attr_accessor :name, :artist, :genre
   def self.genre_count
     genre_baby = @@genres.slice()
     genre_baby.each do |genre|
+      puts genre
     end
   end
 
