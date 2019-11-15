@@ -24,7 +24,7 @@ attr_accessor :name, :artist, :genre
   end
 
   def self.genre_count
-     self.genre
+     self.genres
       binding.pry
   end
 
