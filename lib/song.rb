@@ -29,6 +29,6 @@ class Song
     @@artists << artist
   end
   
-    hit_me.name = "hit me baby one more time"
+    hit_me.name = "hit me baby one more tim
 
 end
