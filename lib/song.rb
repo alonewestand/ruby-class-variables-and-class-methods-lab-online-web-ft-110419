@@ -1,36 +1,41 @@
-require 'pry'
-
-class Song
-  attr_accessor :name, :artist, :genre
-  @@count = 0
-  @@genres = [ ]
-  @@artists = []
+  require 'pry'
+  
+  class Song
+attr_accessor :name, :artist, :genre	
+@@count = 0  
+@@genres = [ ]  
+@@artists = []	
 
   def initialize (name, artist, genre)
-    @name = name
-    @artist = artist
-    @genre = genre
-    @@count +=1
-    @@genres << genre
-    @@artists << artist
-  end
+  @name = name 	
+  @artist = artist
+	@genre = genre
+  @@count +=1	
+  @@genres << genre 
+  @@artists << artist 
+ 	end  
 
-  def self.count
-    @@count
-  end
+  def self.count 
+  @@count
+  end          
 
   def self.genres
-    @@genres.uniq
+	@@genres.uniq
   end
 
   def self.genre_count
-    def genre
-      @genre
-    end
-    end
-  {@@genres => @@genres.each.count}
+      Hash.new(@@genres.each => @@genres.each.count)
+      binding.pry
   end
 
   def self.artists
-    @@artists.uniq
+	  @@artists.uniq
   end
+
+  end
+
+# my_song = song.new
+# my_song.instance_method
+
+# Song.count
+# # => 90
