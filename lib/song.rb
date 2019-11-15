@@ -33,7 +33,7 @@ attr_accessor :name, :artist, :genre
 
 
   def self.genre_count
-  Hash[@@artists.map {|key, value| [key, value]}]
+  Hash[@@artists.map {|key, value| if [key]}]
     end
   end
 
