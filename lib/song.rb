@@ -33,7 +33,7 @@ attr_accessor :name, :artist, :genre
 
 
   def self.genre_count
-   @@genres.each_cons
+   @@genres.each_cons("rap" || "pop" || "rock")
     genre_baby.each do |genre|
       puts genre
     end
