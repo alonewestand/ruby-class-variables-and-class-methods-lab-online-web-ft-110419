@@ -3,6 +3,10 @@
   class Song
 attr_accessor :name, :artist, :genre	
 @@count = 0  
+
+#genres returns each genre one time, how do I count the number of times
+#for each genre?
+
 @@genres = [ ]
 @@genre_count = []
 @@artists = []	
