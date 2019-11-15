@@ -14,7 +14,7 @@ attr_accessor :name, :artist, :genre
   @@count +=1	
   @@genres << genre 
   @@artists << artist
-  @@genre_count {self.genre => self.genre.each.count}
+  @@genre_count = {self.genre => self.genre.each.count}
  	end  
 
 
