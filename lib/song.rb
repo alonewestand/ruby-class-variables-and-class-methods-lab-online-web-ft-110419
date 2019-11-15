@@ -13,10 +13,6 @@ def initialize (name, artist, genre)
   @@artists << artist 
   @@genre_count = genre_count
  	end  
- 	
- def instance_method 
-   self
- end
 
 def self.count 
   @@count
