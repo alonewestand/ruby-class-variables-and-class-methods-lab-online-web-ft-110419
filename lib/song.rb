@@ -18,7 +18,7 @@ def initialize (name, artist, genre)
  end
 
 def self.count 
-  self
+  @@count
 end          #self.name.uniq.count didn't work	/#returns array total number of unique songs
 
 def self.genres
@@ -34,3 +34,4 @@ my_song = song.new
 my_song.instance_method
 
 Song.count
+# => 90
