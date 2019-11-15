@@ -35,3 +35,4 @@ attr_accessor :name, :artist, :genre
 	  @@artists.uniq
   end
 end
+end
