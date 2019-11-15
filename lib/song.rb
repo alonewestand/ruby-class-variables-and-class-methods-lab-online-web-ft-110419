@@ -20,7 +20,7 @@ def initialize (name, artist, genre)
 
 def self.count 
   @@count
-end          #self.name.uniq.count didn't work	/#returns array total number of unique songs
+end          
 
 def self.genres
 	@@genres.uniq 	
