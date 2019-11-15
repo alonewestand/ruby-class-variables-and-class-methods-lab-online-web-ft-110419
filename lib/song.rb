@@ -26,7 +26,7 @@ attr_accessor :name, :artist, :genre
   end
 
   def self.artists
-	@@artists.uniq 
+	for @@artists.uniq genre_
   end
 
   end
