@@ -39,6 +39,7 @@ attr_accessor :name, :artist, :genre
     end
     return genre_hash
   end
+end
 
   def self.artists
 	  @@artists.uniq
