@@ -32,11 +32,10 @@ attr_accessor :name, :artist, :genre
 # iterate over the @@genres array and populate a hash with the key/value pairs. You will need to check to see if the hash already contains a key of a particular genre. If so, increment the value of that key by one, otherwise, create a new key/value pair.
 
 
-
   def self.genre_count
     @@genres.each.do |genre|
-      
-      genre ? {genre.to_s => } : {"#{genre}" += 1
+      if genres.include?(genre) then
+        {genre => genre.count +=1}
     end
   end
 
