@@ -11,6 +11,7 @@ def initialize (name, artist, genre)
   @@count +=1	
   @@genres << genre 
   @@artists << artist 
+  @@genre_count 
  	end  
  	
  def instance_method 
