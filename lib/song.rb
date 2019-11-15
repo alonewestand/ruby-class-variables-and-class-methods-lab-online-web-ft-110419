@@ -33,10 +33,7 @@ attr_accessor :name, :artist, :genre
 
 
   def self.genre_count
-    @@genres.each do |genre|
-    @@genres.pop(genre.to_i)
-    
-      {genre => gen_num}
+  Hash[@@artists.map {|key, value| [key, value]}]
     end
   end
 
