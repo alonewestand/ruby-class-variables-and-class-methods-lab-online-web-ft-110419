@@ -35,7 +35,6 @@ attr_accessor :name, :artist, :genre
   def self.genre_count
     @@genres.each do |genre|
     end
-    end
   end
 
   def self.artists
