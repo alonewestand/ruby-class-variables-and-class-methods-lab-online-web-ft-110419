@@ -7,7 +7,7 @@ attr_accessor :name, :artist, :genre
 #genres returns each genre one time, how do I count the number of times
 #for each genre?
 
-@@genres = [ ]
+@@genres = []
 @@artists = []	
 
   def initialize (name, artist, genre)
@@ -44,4 +44,17 @@ end
   def self.artists
 	  @@artists.uniq
   end
+  
+def self.artist_count 
+    artist_hash = {}
+  @@artists.each do |a|
+    if artist_hash[a]
+       artist_hash[a] += 1
+      else
+      artist_hash[a] = 1 
+    end
+  end
+  return artist_hash
+end
+  
 end
