@@ -29,7 +29,7 @@ attr_accessor :name, :artist, :genre
 	for @@artists.uniq
   end
 
-
+  
 
   end
 
