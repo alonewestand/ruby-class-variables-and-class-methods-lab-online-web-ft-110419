@@ -29,7 +29,7 @@ attr_accessor :name, :artist, :genre
 	@@genres.uniq
   end
 
-  def self.genre_count 
+def self.genre_count 
     genre_hash = {}
   @@genres.each do |g|
     if genre_hash[g]
