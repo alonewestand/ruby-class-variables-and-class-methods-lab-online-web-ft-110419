@@ -37,8 +37,6 @@ attr_accessor :name, :artist, :genre
     @@genres.each.do |genre|
       genre ? {genre.to_s : {genre => genre += 1}
     end
-      
-       
   end
 
   def self.artists
