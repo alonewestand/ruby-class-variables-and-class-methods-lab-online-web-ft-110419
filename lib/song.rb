@@ -29,8 +29,6 @@ attr_accessor :name, :artist, :genre
 	  @@artists.uniq
   end
 
-  
-
   end
 
 # my_song = song.new
