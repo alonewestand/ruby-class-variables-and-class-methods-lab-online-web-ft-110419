@@ -22,7 +22,7 @@ attr_accessor :name, :artist, :genre
   end
 
   def self.genre_count
-      @@genres.each {|key|value| Hash.new} 
+      @@genres.each {|key,| Hash.new} 
   end
 
   def self.artists
