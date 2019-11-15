@@ -35,7 +35,7 @@ attr_accessor :name, :artist, :genre
   def self.genre_count
     @@genres.each do |genre|
       if genres.include?genre then
-        genre_count = {genre => genre.count +=1}
+        genre_count = {genre => genre.count}
       end
     end
   end
