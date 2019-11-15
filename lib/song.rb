@@ -30,8 +30,8 @@ attr_accessor :name, :artist, :genre
   end
 
     def self.genre_count
+      binding.pry
    @@genres.group_by { |g| g.count}
-   binding.pry
   end
 
   def self.artists
