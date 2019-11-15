@@ -33,7 +33,7 @@ attr_accessor :name, :artist, :genre
 
 
   def self.genre_count
-  Hash[@@artists.map {|key, value| if [key] then value += 1 else |key, value}]
+    genre_baby = @@genres.slice
     end
   end
 
