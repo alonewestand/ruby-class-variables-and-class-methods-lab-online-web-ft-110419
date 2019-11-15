@@ -36,7 +36,7 @@ attr_accessor :name, :artist, :genre
 
 # If no block is given an enumerator is returned.
 
-(1..6).group_by { |i| i%3 }   #=> {0=>[3, 6], 1=>[1, 4], 2=>[2, 5]}
+# (1..6).group_by { |i| i%3 }   #=> {0=>[3, 6], 1=>[1, 4], 2=>[2, 5]}
   def self.genre_count
    @@genres.each_cons("rap" || "pop" || "rock")
     genre_baby.each do |genre|
